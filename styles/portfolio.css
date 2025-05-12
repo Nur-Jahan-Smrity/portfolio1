@@ -15,13 +15,16 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 120px;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
     font-size: 45px;
 }
-/* text color */
+/* text color and styles */
+.secondary-bg{
+    background-color: #f3f9ff;
+}
 .text-primary{
     color: #0a90fd;
 }
@@ -36,6 +39,15 @@ nav{
    border: none;
    padding: 18px 35px;
    border-radius: 5px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 /* header */
 .header{
@@ -61,8 +73,7 @@ nav ul{
 .banner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0px 120px;
+    margin: 0px 200px;
 }
 .banner-content{
     max-width: 580px;
@@ -77,4 +88,23 @@ nav ul{
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
