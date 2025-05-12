@@ -1,0 +1,80 @@
+
+/* 
+ <weight>: Use a value from 300 to 800
+ <uniquifier>: Use a unique and descriptive class name
+*/
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*nav styles*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* text color */
+.text-primary{
+    color: #0a90fd;
+}
+.dark-02{
+    color: #474747;
+}
+.btn-primary{
+   background-color: #0a90fd; 
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   border: none;
+   padding: 18px 35px;
+   border-radius: 5px;
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/blue_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+/* list of nav style*/
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* banner styles*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
